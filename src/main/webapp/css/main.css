@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+*{
+	
+	box-sizing: border-box;
+	font-size: 15pt;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: maroon;
+	
+}
+
+header h2{
+	padding: 8px 16px;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+header a{
+	padding: 8px 16px;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 10px;
+	border-top: 1px solid goldenrod;
+	border-bottom: 1px solid goldenrod;
+	background-color: inherit;
+}
+
+nav a{
+	padding: 8px 16px;
+	margin: 0px 20px;
+	color: white;
+	font-size: 15px;
+	font-style: italic;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+table{
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+
+th{
+	border: 1px solid chocolate;
+	border-spacing: none;
+	
+}
+
+td{
+	border: 1px solid chocolate;
+	border-spacing: none;
+	
+}
+
+fieldset{
+	width: 30%;
+	margin: 0 auto;
+	border: 1px solid chocolate;
+	margin-top: 100px;
+}
+legend{
+	font-size: 20px;
+	color: goldenrod;
+	font-style: italic;
+}
+.form-content-wrapper{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.form-content{
+	flex: 1 1 auto;
+	display: flex;
+	margin: 4px;
+	padding: 4px 8px;
+	flex-direction: row;
+	justify-content: flex-end;
+	text-align: rigth;
+}
+.login-label{
+	flex: 0 0 50%;
+}
+.login-input{
+	flex: 0 0 50%;
+}
+hr{
+	width:100%;
+}
+.btn-submit{
+	border: none;
+	padding: 8px 16px;
+	background-color: maroon;
+	color: white;
+	
+}
+
+footer{
+	background-color: maroon;
+	color: white;
+	padding: 8px 16px;
+	margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
